@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vuduyphuc.baithi.Activity.ThemLoaiSPActivity">
+    <TextView
+        android:gravity="center"
+        android:textColor="#ea1818"
+        android:textSize="30sp"
+        android:text="Loại Sản Phẩm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:textStyle="bold"
+            android:hint="Mời nhập mã sản phẩm"
+            android:id="@+id/edtMaLoaiSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textStyle="bold"
+            android:hint="Mời nhập tên sản phẩm"
+            android:id="@+id/edtTenLoaiSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSuaSP"
+        android:text="CẬP NHẬT SẢN PHẨM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
